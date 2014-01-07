@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diff Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+  <div id="menu">
+    <a id ="new_list" title="New file list" class="button red">     </a>
+    <a id ="open_list" title="Open file list" class="button blue"> Open list </a>
+    <a id ="setup_repo" title="Setup Repo Folders" class="button grey"> </a>
+    <a id ="setup_diff" title="Setup Diff Tool" class="button grey">    </a>
+    <div class="clear"></div>
+  </div>
+
+  <ul id="list"></ul>
+
+  <div id="overlay">
+    <div id="overlay_wrapper">
+      <textarea id="file_list"></textarea>
+      <input type="text" id="diff_container" value="" />
+
+      <div id="repo_list">
+        Repo 1
+        <input type="text" id="repo1_container" value="" />
+        
+        Repo 2
+        <input type="text" id="repo2_container" value="" />
+      </div>
+
+      <button id="update_action">Update</button>
+    </div>
+  </div>
+
+  <div id="progress">
+    <div id="progress_cursor"></div>
+  </div>
+
+</body>
+</html>

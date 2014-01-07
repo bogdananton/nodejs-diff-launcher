@@ -1,0 +1,11 @@
+{
+  "name": "Diff-Launcher",
+  "description": "Diff launcher using paths and two repos.",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 300,
+    "height": 500
+  }
+}
