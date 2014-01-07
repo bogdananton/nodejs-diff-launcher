@@ -1,3 +1,3 @@
-linux binary + nw.pak (78MB)
+linux binary + nw.pak
 https://dl.dropboxusercontent.com/u/108661300/github/nodejs-diff-launcher/build/diff-launcher-linux.zip
 
