@@ -75,7 +75,9 @@ var DiffLauncher = {
 
       } else if(this.filelist_container.style.display == 'block'){
 
+        this.diff_items = [];
         var lines = this.filelist_container.value.split('\n');
+
         for(var i = 0; i < lines.length; i++){
           var file = lines[i];
 
