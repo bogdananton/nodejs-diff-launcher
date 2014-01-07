@@ -5,4 +5,4 @@ I'm using this to sync between two versioning systems, using the filepaths gener
 
 Before being added to the list, files are being checked if they're found in both repos.
 
-!snapshot.png!
+![](https://raw.github.com/bogdananton/nodejs-diff-launcher/master/snapshot.png)
